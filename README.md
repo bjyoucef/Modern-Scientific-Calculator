@@ -1,71 +1,101 @@
-# Calculator using PyQt5 in Python
-This is a simple calculator application built using PyQt5 in Python.
+# 🧮 Advanced PyQt5 Calculator
 
-##   Description
-This calculator application allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It provides a graphical user interface (GUI) for ease of use.
+[![Python Version](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![PyQt5](https://img.shields.io/badge/PyQt-5-green.svg)](https://pypi.org/project/PyQt5/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![alt text](https://github.com/bjyoucef/Calculator_using_PyQt5_in_Python/blob/master/Gui/1.jpg)
-![alt text](https://github.com/bjyoucef/Calculator_using_PyQt5_in_Python/blob/master/Gui/2.jpg)
+A modern, feature-rich scientific calculator built with **Python** and **PyQt5**. This application combines a sleek dark-themed interface with advanced mathematical capabilities and persistent calculation history.
 
+---
 
+## ✨ Features
 
-## Features
+- **Basic Operations**: Addition, Subtraction, Multiplication, Division.
+- **Scientific Functions**: 
+  - Trigonometry: `sin`, `cos`, `tan` (degree-based).
+  - Logarithms: `ln` (natural), `log` (base 10).
+  - Power & Roots: `x²`, `√` (square root).
+  - Constants: `π` (Pi), `e` (Euler's number).
+  - Others: `1/x` (inverse).
+- **Persistent History**: Stores your last 100 calculations in a `history.json` file, automatically reloaded on startup.
+- **Modern UI**: Custom CSS styling with a premium dark mode, responsive button layout, and elegant typography.
+- **Keyboard Support**: Full support for number keys, basic operators, `Enter` for equals, and `Backspace` for clearing.
+- **Robust Error Handling**: Handles division by zero and invalid mathematical expressions gracefully.
 
-Addition (+)
+---
 
-Subtraction (-)
+## 📸 Screenshots
 
-Multiplication (*)
+| Modern Interface | Scientific Panel |
+| :---: | :---: |
+| ![Main UI](Gui/1.jpg) | ![Features](Gui/2.jpg) |
 
-Division (/)
+---
 
-Decimal point support
+## 🚀 Installation
 
-Error handling for division by zero and invalid expressions
+### 1. Requirements
 
-## Installation
+- Python 3.10 or higher
+- **PyQt6**
 
-Ensure you have Python installed on your system.
-
-## Install PyQt5 library using pip:
+### 2. Install Dependencies
 
 ```bash
-pip install pyqt5
+pip install PyQt6
 ```
 
-## Clone this repository:
-
+### 3. Clone the Repository
 ```bash
-git clone <(https://github.com/bjyoucef/Calculator_using_PyQt5_in_Python.git)>
-```
-
-## Navigate to the project directory:
-
-```bash
+git clone https://github.com/bjyoucef/Calculator_using_PyQt5_in_Python.git
 cd Calculator_using_PyQt5_in_Python
 ```
 
-## Run the application:
-
+### 4. Run the Application
 ```bash
 python main.py
 ```
 
-## Usage
+---
 
-Enter numbers using the number buttons.
+## ⌨️ Keyboard Shortcuts
 
-Select an arithmetic operation by clicking the corresponding button (+, -, *, /).
+| Key | Action |
+| :--- | :--- |
+| `0-9` | Input Numbers |
+| `+`, `-`, `*`, `/` | Basic Operators |
+| `.` or `,` | Decimal Point |
+| `Enter` / `=` | Evaluate Expression |
+| `Backspace` | Clear Last Character |
+| `Esc` | Clear All (AC) |
 
-To clear the current input, press the "C" button.
+---
 
-Press the "=" button to evaluate the expression and view the result.
+## 🛠️ Built With
 
-View the history of calculations in the text area.
+- **Python**: Core logic.
+- **PyQt5**: GUI Framework.
+- **JSON**: Persistent storage for history.
+- **Math**: Advanced arithmetic functions.
 
-## Contributing
+---
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+## 🤝 Contributing
 
-License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/).
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+**Developed with ❤️ by [bjyoucef](https://github.com/bjyoucef)**
