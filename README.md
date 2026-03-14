@@ -28,7 +28,7 @@ A modern, feature-rich scientific calculator built with **Python** and **PyQt5**
 
 | Modern Interface | Scientific Panel |
 | :---: | :---: |
-| ![Main UI](Gui/1.jpg) | ![Features](Gui/2.jpg) |
+| ![Main UI](Gui/image.png) |
 
 ---
 
